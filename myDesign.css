@@ -1,0 +1,55 @@
+
+@media screen and (max-width: 620px) {
+        input {
+            height: 6vw !important;
+        }
+
+        .seluser {
+            display: grid;
+        }
+
+        .sub {
+            width: 20vw !important;
+        }
+    }
+
+    .inp {
+        box-sizing: content-box !important;
+        width: 30vw;
+        height: 3vw;
+        border-radius: 10px;
+        border: 2px solid black;
+        padding-left: 2vw;
+        font-weight: bolder;
+        outline: none;
+    }
+
+    ::placeholder {
+        font-weight: bold;
+        font-family: 'Courier New', Courier, monospace;
+    }
+
+    label {
+        font-weight: bolder;
+        font-size: 1.5vw;
+    }
+
+    form {
+        font-size: 1.5vw;
+        margin: 0;
+    }
+
+    button:hover {
+        background-color: #fff !important;
+    }
+
+    .bg {
+        background-size: 100%;
+    }
+
+    a {
+        color: #042A38;
+    }
+		.login{
+			max-height: 70vh;
+		
